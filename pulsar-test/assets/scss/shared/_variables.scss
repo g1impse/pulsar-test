@@ -1,0 +1,36 @@
+/* Breakpoints: From xs to sm, from sm to md, from md to lg, after that simple desktop */
+$breakpoints: (
+    xs: 0,
+    sm: 768px,
+    md: 992px,
+    lg: 1280px,
+    xl: 1440px,
+);
+
+/* Colors */
+$blue: #0060b7;
+$blue-light: #0086ff;
+$gray: #808080;
+$gray-800: #dfe3e6;
+$gray-900: #bec5cc;
+$red: rgba(234, 0, 41, .8);
+
+/* Gradient */
+$gradient: linear-gradient(255.35deg, #0086ff .83%, rgba(54, 171, 255, 0) 108.93%), #0060b7;
+
+/* Defaults */
+$font-family: 'Roboto', sans-serif;
+$font-size: 1.6rem;
+$body-color: #000;
+$body-bg: #fff;
+
+/* Grid */
+$header-h: 64px;
+$footer-h: 64px;
+$sidebar-w: 256px;
+
+/* Spacing */
+$mobile-padding: 16px;
+
+/* Transitions */
+$default-transition: .3s ease;
