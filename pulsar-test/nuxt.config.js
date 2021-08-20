@@ -106,14 +106,6 @@ module.exports = {
 
     buildModules: [
         [
-            '@nuxtjs/stylelint-module',
-            {
-                files: ['**/*.scss', '**/*.vue'],
-                failOnError: false,
-                quiet: false,
-            },
-        ],
-        [
             '@nuxtjs/eslint-module',
             {
                 enforce: 'pre',
